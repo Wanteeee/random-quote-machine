@@ -1,0 +1,91 @@
+@font-face {
+  font-family: MEllan HK;
+  src: local('MEllan HK'),
+  url('https://dl-web.dropbox.com/get/page%20exercise/Personal%20Portfolio%20Webpage/MEllanHK-Xbold.ttf?_download_id=19385982657881806274041273414653871004359470004415627688918490741&_notify_domain=www.dropbox.com&_subject_uid=634207292&dl=1&w=AABrpYcNyglIELnNc-94KXCQIOY-ogqgeiFy9SwMVuDFTw');
+  font-weight: Xbold;
+}
+
+html {
+  font-family: 'Passion One', cursive;
+}
+
+
+.section {
+  width: 50%;
+  max-width: 800px;
+  min-width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+
+  left: 0;
+  right: 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+#bg {
+  margin: auto;
+  background-color: black;
+}
+
+.content.special::before {
+  content: "“";
+  font-size: 144px;
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: -90px;
+}
+
+.content {
+  position: relative;
+  margin: 0 50px;
+  font-size: 46px;
+}
+
+.author {
+  font-size: 22px;
+  margin: 20px 50px 0;
+
+  text-align: right;
+}
+
+.button {
+  float: right;
+  margin: 30px 0;
+}
+
+a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+a img {
+  width: 22px;
+  margin: 8px 6px;
+}
+
+button {
+  font-family: 'Passion One', cursive;
+  font-size: 16px;
+  color: white;
+  line-height: 34px;
+  width: 150px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: rgba(255, 0, 0, 0);
+  cursor: pointer;
+}
